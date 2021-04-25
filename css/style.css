@@ -1,0 +1,43 @@
+html{
+    position:relative;
+    min-height: 100vh;
+}
+
+body{
+    padding: 56px 0;
+}
+
+footer{
+    position: absolute;
+    bottom:0;
+}
+
+.nav-item.active{
+    border-bottom: solid 1px rgb(73, 72, 72);
+    font-size: 18px;
+}
+
+#preview{
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 25px;
+}
+
+#conversation, #users{
+    height: 60vh;
+    overflow-y: auto;/* scroll interne aux div */
+    
+}
+
+.capitilize{
+    text-transform: capitalize;
+}
+.login{
+    font-size: 1.5rem;
+}
+.avatar{
+    width: 32px;
+}
